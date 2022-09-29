@@ -12,7 +12,7 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Hello World</name>
-	<description>Sample spring boot application for TechNet  </description>
+	<description>Sample spring boot application for TechNet. I was finally able to connect jenkins.  </description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
