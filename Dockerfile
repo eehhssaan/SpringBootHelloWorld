@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk
+COPY target/*.jar /
 EXPOSE 8080
-ADD target/SpringBootHelloWorld.jar SpringBootHelloWorld.jar
 ENTRYPOINT ["java", "-jar", "/SpringBootHelloWorld.jar"]
