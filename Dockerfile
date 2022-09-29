@@ -1,7 +1,7 @@
 FROM openjdk:11
+COPY target/*.jar /
 EXPOSE 8080
-ADD target/SpringBootHelloWorld.jar SpringBootHelloWorld.jar
-ENTRYPOINT ["java", "-jar", "/springboothelloworld.jar"]
+#ENTRYPOINT ["java", "-jar", "springboothelloworld.jar"]
 
 
 
